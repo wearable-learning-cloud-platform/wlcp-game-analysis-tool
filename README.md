@@ -18,7 +18,7 @@ Because `main` is the project's production branch, you will not want to create a
 
 The following is the team's workflow for developing the codebase for this project:
 
-1. Create a **development branch** from `main` using the following naming convention: `dev-<your name>-<date the branch was created>`. For example, if Francisco wanted to create a _development branch_ from `main` on January 11, 2023, the following would be the name of his development branch: `dev-francisco-01112023`. Make sure that you shift your working branch to this new development branch in your local working environment.
+1. Create a **development branch** from `main` using the following naming convention: `dev-<your name>-<date the branch was created>`. For example, if Francisco wanted to create a _development branch_ from `main` on January 11, 2023, the following would be the name of his development branch: `dev-francisco-01112023`. Make sure that you shift (_i.e._ `checkout`) your working branch to this new development branch in your local working environment.
 
 2. Develop and push changes to the codebase in your **development branch**. Again, make sure to check that you are pulling and committing code in the **development branch** that you created, and not the `main` branch.
 
