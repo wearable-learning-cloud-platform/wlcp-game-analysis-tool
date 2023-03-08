@@ -1,0 +1,545 @@
+{
+    "gameId": "indiangirls",
+    "teamCount": 3,
+    "playersPerTeam": 3,
+    "username": {
+      "usernameId": ""
+    },
+    "visibility": true,
+    "stateIdCount": 5,
+    "transitionIdCount": 5,
+    "connectionIdCount": 6,
+    "dataLog": false,
+    "states": [
+      {
+        "stateType": "START_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_start",
+        "game": "indiangirls",
+        "stateType": "START_STATE",
+        "positionX": 37.0,
+        "positionY": 24.0,
+        "inputConnections": [
+          
+        ],
+        "outputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_1"
+        ],
+        "globalVariables": [
+          
+        ]
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_state_1",
+        "game": "indiangirls",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 102.0,
+        "positionY": 158.0,
+        "inputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_1"
+        ],
+        "outputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_2"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "welcome to indiangirls team                                   push any button to continue"
+        },
+        "pictureOutputs": {
+          "Game Wide": {
+            "url": "https://i.pinimg.com/474x/0c/ff/42/0cff4251788fe1aaeddbf72a14ab35d0.jpg",
+            "scale": 66
+          }
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_state_2",
+        "game": "indiangirls",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 587.0,
+        "positionY": 86.0,
+        "inputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_2",
+          "41f33a22c46f8acd99ec10720d82dd57_connection_6"
+        ],
+        "outputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_3",
+          "41f33a22c46f8acd99ec10720d82dd57_connection_4"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "what is 7+3=?\n"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_state_3",
+        "game": "indiangirls",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 912.0,
+        "positionY": 316.0,
+        "inputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_3"
+        ],
+        "outputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_5"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "good job"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_state_4",
+        "game": "indiangirls",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 526.0,
+        "positionY": 397.0,
+        "inputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_4"
+        ],
+        "outputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_6"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "please try again"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "41f33a22c46f8acd99ec10720d82dd57_state_5",
+        "game": "indiangirls",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 660.0,
+        "positionY": 653.0,
+        "inputConnections": [
+          "41f33a22c46f8acd99ec10720d82dd57_connection_5"
+        ],
+        "outputConnections": [
+          
+        ],
+        "description": "State",
+        "displayText": {
+          
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_1",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_start",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_1",
+        "backwardsLoop": false,
+        "transition": null
+      },
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_2",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_state_1",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_2",
+        "backwardsLoop": false,
+        "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_1"
+      },
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_3",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_state_2",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_3",
+        "backwardsLoop": false,
+        "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_2"
+      },
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_4",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_state_2",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_4",
+        "backwardsLoop": false,
+        "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_3"
+      },
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_5",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_state_3",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_5",
+        "backwardsLoop": false,
+        "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_5"
+      },
+      {
+        "connectionId": "41f33a22c46f8acd99ec10720d82dd57_connection_6",
+        "game": "indiangirls",
+        "connectionFrom": "41f33a22c46f8acd99ec10720d82dd57_state_4",
+        "connectionTo": "41f33a22c46f8acd99ec10720d82dd57_state_2",
+        "backwardsLoop": true,
+        "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4"
+      }
+    ],
+    "transitions": [
+      {
+        "transitionId": "41f33a22c46f8acd99ec10720d82dd57_transition_1",
+        "game": "indiangirls",
+        "connection": "41f33a22c46f8acd99ec10720d82dd57_connection_2",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_1_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_1",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "41f33a22c46f8acd99ec10720d82dd57_transition_2",
+        "game": "indiangirls",
+        "connection": "41f33a22c46f8acd99ec10720d82dd57_connection_3",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "41f33a22c46f8acd99ec10720d82dd57_transition_2_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_2",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              "10",
+              "ten"
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_2_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_2",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "41f33a22c46f8acd99ec10720d82dd57_transition_3",
+        "game": "indiangirls",
+        "connection": "41f33a22c46f8acd99ec10720d82dd57_connection_4",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "41f33a22c46f8acd99ec10720d82dd57_transition_3_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_3",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              ""
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_3_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_3",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+        "game": "indiangirls",
+        "connection": "41f33a22c46f8acd99ec10720d82dd57_connection_6",
+        "activeTransitions": {
+          "Team 2 Player 1": "Button Press",
+          "Team 3": "Button Press",
+          "Team 2 Player 2": "Button Press",
+          "Team 2 Player 3": "Button Press",
+          "Team 3 Player 2": "Button Press",
+          "Team 3 Player 1": "Button Press",
+          "Team 3 Player 3": "Button Press",
+          "Game Wide": "Button Press",
+          "Team 1": "Button Press",
+          "Team 2": "Button Press",
+          "Team 1 Player 1": "Button Press",
+          "Team 1 Player 2": "Button Press",
+          "Team 1 Player 3": "Button Press"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Team 2 Player 1": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_2 player 1",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 2 Player 1",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 3": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_3",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 3",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 2 Player 2": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_2 player 2",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 2 Player 2",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 2 Player 3": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_2 player 3",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 2 Player 3",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 3 Player 2": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_3 player 2",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 3 Player 2",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 3 Player 1": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_3 player 1",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 3 Player 1",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 3 Player 3": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_3 player 3",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 3 Player 3",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Game Wide": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 1": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_1",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 1",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 2": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_2",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 2",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 1 Player 1": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_1 player 1",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 1 Player 1",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 1 Player 2": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_1 player 2",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 1 Player 2",
+            "globalVariableInputModifiers": [
+              
+            ]
+          },
+          "Team 1 Player 3": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_4_team_1 player 3",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_4",
+            "scope": "Team 1 Player 3",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "41f33a22c46f8acd99ec10720d82dd57_transition_5",
+        "game": "indiangirls",
+        "connection": "41f33a22c46f8acd99ec10720d82dd57_connection_5",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "41f33a22c46f8acd99ec10720d82dd57_transition_5_game_wide",
+            "transition": "41f33a22c46f8acd99ec10720d82dd57_transition_5",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      }
+    ]
+  }

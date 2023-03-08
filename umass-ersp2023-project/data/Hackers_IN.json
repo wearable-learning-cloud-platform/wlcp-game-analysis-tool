@@ -1,0 +1,871 @@
+{
+    "gameId": "hackers",
+    "teamCount": 2,
+    "playersPerTeam": 3,
+    "username": {
+      "usernameId": ""
+    },
+    "visibility": true,
+    "stateIdCount": 11,
+    "transitionIdCount": 10,
+    "connectionIdCount": 11,
+    "dataLog": false,
+    "states": [
+      {
+        "stateType": "START_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_start",
+        "game": "hackers",
+        "stateType": "START_STATE",
+        "positionX": 0.0,
+        "positionY": 68.501,
+        "inputConnections": [
+          
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_1"
+        ],
+        "globalVariables": [
+          
+        ]
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_1",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 24.5073,
+        "positionY": 264.074,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_1"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_2"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "welcome to our game this is a game of hackers  press any button to continune\n"
+        },
+        "pictureOutputs": {
+          "Game Wide": {
+            "url": "https://planetsportsandtrophies.com/wp-content/uploads/2022/01/JR34-TY177A-1-300x300.jpg",
+            "scale": 72
+          }
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_10",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 0.0,
+        "positionY": 627.502,
+        "inputConnections": [
+          
+        ],
+        "outputConnections": [
+          
+        ],
+        "description": "State",
+        "displayText": {
+          
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_11",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 489.5,
+        "positionY": 867.029,
+        "inputConnections": [
+          
+        ],
+        "outputConnections": [
+          
+        ],
+        "description": "State",
+        "displayText": {
+          
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_2",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 182.046,
+        "positionY": 83.4938,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_2",
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_7"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_3",
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_4"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "calculate 9+6=?"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_3",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 229.001,
+        "positionY": 247.997,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_3"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_5"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "great job you go to next question press any button to continue"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_4",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 544.525,
+        "positionY": 44.5562,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_4"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_7"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "oops wrong answer try again press any button"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_5",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 86.4743,
+        "positionY": 515.594,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_5",
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_9"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_6",
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_8"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "19 + 13 =?"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_6",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 60.0,
+        "positionY": 801.0,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_6"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_10"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "good job you go to next question press any button to continue"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_7",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 458.499,
+        "positionY": 668.918,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_8"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_9"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "oops wrong answer try again press any button to continue"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_8",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 316.495,
+        "positionY": 820.566,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_10"
+        ],
+        "outputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_11"
+        ],
+        "description": "State",
+        "displayText": {
+          "Game Wide": "999 + 99 -10 -8 =?"
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      },
+      {
+        "stateType": "OUTPUT_STATE",
+        "stateId": "dc5d6e5c0ffd6d1cd249286ced098382_state_9",
+        "game": "hackers",
+        "stateType": "OUTPUT_STATE",
+        "positionX": 755.398,
+        "positionY": 779.047,
+        "inputConnections": [
+          "dc5d6e5c0ffd6d1cd249286ced098382_connection_11"
+        ],
+        "outputConnections": [
+          
+        ],
+        "description": "State",
+        "displayText": {
+          
+        },
+        "pictureOutputs": {
+          
+        },
+        "soundOutputs": {
+          
+        },
+        "videoOutputs": {
+          
+        },
+        "globalVariables": {
+          
+        }
+      }
+    ],
+    "connections": [
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_1",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_start",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_1",
+        "backwardsLoop": false,
+        "transition": null
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_10",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_6",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_8",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_9"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_11",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_8",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_9",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_2",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_1",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_2",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_1"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_3",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_2",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_3",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_4",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_2",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_4",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_5",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_3",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_5",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_4"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_6",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_5",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_6",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_7",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_4",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_2",
+        "backwardsLoop": true,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_6"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_8",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_5",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_7",
+        "backwardsLoop": false,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7"
+      },
+      {
+        "connectionId": "dc5d6e5c0ffd6d1cd249286ced098382_connection_9",
+        "game": "hackers",
+        "connectionFrom": "dc5d6e5c0ffd6d1cd249286ced098382_state_7",
+        "connectionTo": "dc5d6e5c0ffd6d1cd249286ced098382_state_5",
+        "backwardsLoop": true,
+        "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_8"
+      }
+    ],
+    "transitions": [
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_1",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_2",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_1_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_1",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_11",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              "1080"
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_10",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_3",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              "15"
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_2",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_4",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              ""
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_3",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_4",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_5",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_4_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_4",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_6",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              "32"
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_5",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_6",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_7",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_6_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_6",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_8",
+        "activeTransitions": {
+          "Game Wide": "Text Entry"
+        },
+        "singleButtonPresses": {
+          
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          "Game Wide": {
+            "keyboardInputId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7",
+            "scope": "Game Wide",
+            "keyboardInputs": [
+              ""
+            ]
+          }
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_7",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_8",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_9",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_8_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_8",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      },
+      {
+        "transitionId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_9",
+        "game": "hackers",
+        "connection": "dc5d6e5c0ffd6d1cd249286ced098382_connection_10",
+        "activeTransitions": {
+          "Game Wide": "Button Press"
+        },
+        "singleButtonPresses": {
+          "Game Wide": {
+            "button1": true,
+            "button1Label": "Red Button",
+            "button2": true,
+            "button2Label": "Green Button",
+            "button3": true,
+            "button3Label": "Blue Button",
+            "button4": true,
+            "button4Label": "Black Button"
+          }
+        },
+        "sequenceButtonPresses": {
+          
+        },
+        "keyboardInputs": {
+          
+        },
+        "timerDurations": {
+          
+        },
+        "randoms": {
+          
+        },
+        "globalVariables": {
+          "Game Wide": {
+            "globalVariableId": "dc5d6e5c0ffd6d1cd249286ced098382_transition_9_game_wide",
+            "transition": "dc5d6e5c0ffd6d1cd249286ced098382_transition_9",
+            "scope": "Game Wide",
+            "globalVariableInputModifiers": [
+              
+            ]
+          }
+        }
+      }
+    ]
+  }
