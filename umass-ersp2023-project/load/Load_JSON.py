@@ -24,21 +24,33 @@ for single_file in files:
 
 
 #This is to sort (if needed) ###############################
-def myFunc(e):
-    return len(e)
+# def myFunc(e):
+#     return len(e)
 
-for single_file in data:
-    att =  list(single_file.keys())
-    if (single_file['gameId'] == 'TangramsRace'):
-        temp = single_file['states']
-        b = []
-        for i in temp:
-            b.append(i['stateId'])
-        b.sort(key=myFunc)
-        for i in b:
-            print(i)
+# for single_file in data:
+#     att =  list(single_file.keys())
+#     if (single_file['gameId'] == 'TangramsRace'):
+#         temp = single_file['states']
+#         b = []
+#         for i in temp:
+#             b.append(i['stateId'])
+#         b.sort(key=myFunc)
+#         for i in b:
+#             print(i)
 ##################################################
 
+#This is to check sound/picture/video outputs
+# for single_file in data:
+#     temp = single_file['states']
+#     for i in temp:
+#         att = list(i.keys())
+#         for key in att:
+#             if (key == 'pictureOutputs'):
+#                 if (i[key]):
+#                     print(single_file['gameId'])
+#####################################################
+
+#This is to extract text
 c = []
 for single_file in data:
     temp = single_file['states']
@@ -57,5 +69,8 @@ for single_file in data:
 
 for i in c[0]:
     print(i)
+####################################################
+
+            
 
 
