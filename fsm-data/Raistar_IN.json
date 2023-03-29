@@ -1,0 +1,986 @@
+{
+  "gameId": "raistar",
+  "teamCount": 3,
+  "playersPerTeam": 3,
+  "username": {
+    "usernameId": ""
+  },
+  "visibility": true,
+  "stateIdCount": 15,
+  "transitionIdCount": 16,
+  "connectionIdCount": 19,
+  "dataLog": false,
+  "states": [
+    {
+      "stateType": "START_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_start",
+      "game": "raistar",
+      "stateType": "START_STATE",
+      "positionX": 42.0,
+      "positionY": 26.0,
+      "inputConnections": [],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_1"
+      ],
+      "globalVariables": []
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_1",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 276.0,
+      "positionY": 40.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_1"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_2"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "welcome to our game\npress any button to start"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_10",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 705.0,
+      "positionY": 1000.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_12"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_13"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "oops wrong answer try again press any button to retry"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_11",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 278.0,
+      "positionY": 1208.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_14"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_15"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "good job press any button to continue"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_12",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 684.0,
+      "positionY": 1224.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_15",
+        "1b924414902736aef127e558c1720310_connection_17"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_16",
+        "1b924414902736aef127e558c1720310_connection_18"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "(-17) - (+2) =?"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_13",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 957.0,
+      "positionY": 1235.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_16"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_17"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "oops wrong answer try again press any button to retry"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_14",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 538.0,
+      "positionY": 1463.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_18"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_19"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "good job press any button to continue"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_15",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 62.0,
+      "positionY": 1465.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_19"
+      ],
+      "outputConnections": [],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "(-20)+(3) =?"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_2",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 571.0,
+      "positionY": 182.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_2",
+        "1b924414902736aef127e558c1720310_connection_5"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_3",
+        "1b924414902736aef127e558c1720310_connection_4"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "8+7=?"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_3",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 1077.0,
+      "positionY": 345.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_3"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_5"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "oops wrong answer try again press any button to continue"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_4",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 93.0,
+      "positionY": 375.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_4"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_6"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "good job press any button to continue"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_5",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 586.0,
+      "positionY": 593.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_6",
+        "1b924414902736aef127e558c1720310_connection_9"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_7",
+        "1b924414902736aef127e558c1720310_connection_8"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "17 - 8 =?"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_6",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 1032.0,
+      "positionY": 771.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_7"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_11"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "good job  press any button"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_7",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 339.0,
+      "positionY": 768.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_8"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_9"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "oops wrong answer press any button to retry"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "1b924414902736aef127e558c1720310_state_9",
+      "game": "raistar",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 149.0,
+      "positionY": 961.0,
+      "inputConnections": [
+        "1b924414902736aef127e558c1720310_connection_11",
+        "1b924414902736aef127e558c1720310_connection_13"
+      ],
+      "outputConnections": [
+        "1b924414902736aef127e558c1720310_connection_12",
+        "1b924414902736aef127e558c1720310_connection_14"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "14(2) =?"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_1",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_start",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_1",
+      "backwardsLoop": false,
+      "transition": null
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_11",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_6",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_9",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_9"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_12",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_9",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_10",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_10"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_13",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_10",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_9",
+      "backwardsLoop": true,
+      "transition": null
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_14",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_9",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_11",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_11"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_15",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_11",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_12",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_12"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_16",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_12",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_13",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_13"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_17",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_13",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_12",
+      "backwardsLoop": true,
+      "transition": "1b924414902736aef127e558c1720310_transition_14"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_18",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_12",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_14",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_15"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_19",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_14",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_15",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_16"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_2",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_1",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_2",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_1"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_3",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_2",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_3",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_2"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_4",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_2",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_4",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_3"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_5",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_3",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_2",
+      "backwardsLoop": true,
+      "transition": "1b924414902736aef127e558c1720310_transition_4"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_6",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_4",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_5",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_5"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_7",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_5",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_6",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_6"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_8",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_5",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_7",
+      "backwardsLoop": false,
+      "transition": "1b924414902736aef127e558c1720310_transition_7"
+    },
+    {
+      "connectionId": "1b924414902736aef127e558c1720310_connection_9",
+      "game": "raistar",
+      "connectionFrom": "1b924414902736aef127e558c1720310_state_7",
+      "connectionTo": "1b924414902736aef127e558c1720310_state_5",
+      "backwardsLoop": true,
+      "transition": "1b924414902736aef127e558c1720310_transition_8"
+    }
+  ],
+  "transitions": [
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_1",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_2",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_1_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_1",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_10",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_12",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_10_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_10",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            ""
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_10_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_10",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_11",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_14",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_11_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_11",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            "28"
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_11_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_11",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_12",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_15",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_12_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_12",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_13",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_16",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_13_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_13",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            ""
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_13_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_13",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_14",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_17",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_14_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_14",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_15",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_18",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_15_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_15",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            "-19"
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_15_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_15",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_16",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_19",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_16_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_16",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_2",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_3",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_2_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_2",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            ""
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_2_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_2",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_3",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_4",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_3_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_3",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            "15"
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_3_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_3",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_4",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_5",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_4_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_4",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_5",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_6",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_5_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_5",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_6",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_7",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_6_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_6",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            "9"
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_6_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_6",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_7",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_8",
+      "activeTransitions": {
+        "Game Wide": "Text Entry"
+      },
+      "singleButtonPresses": {},
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {
+        "Game Wide": {
+          "keyboardInputId": "1b924414902736aef127e558c1720310_transition_7_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_7",
+          "scope": "Game Wide",
+          "keyboardInputs": [
+            ""
+          ]
+        }
+      },
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_7_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_7",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_8",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_9",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_8_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_8",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    },
+    {
+      "transitionId": "1b924414902736aef127e558c1720310_transition_9",
+      "game": "raistar",
+      "connection": "1b924414902736aef127e558c1720310_connection_11",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "1b924414902736aef127e558c1720310_transition_9_game_wide",
+          "transition": "1b924414902736aef127e558c1720310_transition_9",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    }
+  ]
+}
