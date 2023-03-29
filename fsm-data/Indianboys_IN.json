@@ -1,0 +1,150 @@
+{
+  "gameId": "indianboys",
+  "teamCount": 3,
+  "playersPerTeam": 3,
+  "username": {
+    "usernameId": ""
+  },
+  "visibility": true,
+  "stateIdCount": 3,
+  "transitionIdCount": 1,
+  "connectionIdCount": 3,
+  "dataLog": false,
+  "states": [
+    {
+      "stateType": "START_STATE",
+      "stateId": "09e8a827b41c13d8ed9a476b3565b52f_start",
+      "game": "indianboys",
+      "stateType": "START_STATE",
+      "positionX": 525.0,
+      "positionY": 100.0,
+      "inputConnections": [],
+      "outputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_1"
+      ],
+      "globalVariables": []
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "09e8a827b41c13d8ed9a476b3565b52f_state_1",
+      "game": "indianboys",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 325.0,
+      "positionY": 136.0,
+      "inputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_1"
+      ],
+      "outputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_2"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "welcome to the indian boys game"
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "09e8a827b41c13d8ed9a476b3565b52f_state_2",
+      "game": "indianboys",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 397.0,
+      "positionY": 401.0,
+      "inputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_2"
+      ],
+      "outputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_3"
+      ],
+      "description": "State",
+      "displayText": {
+        "Game Wide": "a ring if or -1 total 20 pointes cricket "
+      },
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    },
+    {
+      "stateType": "OUTPUT_STATE",
+      "stateId": "09e8a827b41c13d8ed9a476b3565b52f_state_3",
+      "game": "indianboys",
+      "stateType": "OUTPUT_STATE",
+      "positionX": 300.0,
+      "positionY": 572.0,
+      "inputConnections": [
+        "09e8a827b41c13d8ed9a476b3565b52f_connection_3"
+      ],
+      "outputConnections": [],
+      "description": "State",
+      "displayText": {},
+      "pictureOutputs": {},
+      "soundOutputs": {},
+      "videoOutputs": {},
+      "globalVariables": {}
+    }
+  ],
+  "connections": [
+    {
+      "connectionId": "09e8a827b41c13d8ed9a476b3565b52f_connection_1",
+      "game": "indianboys",
+      "connectionFrom": "09e8a827b41c13d8ed9a476b3565b52f_start",
+      "connectionTo": "09e8a827b41c13d8ed9a476b3565b52f_state_1",
+      "backwardsLoop": false,
+      "transition": null
+    },
+    {
+      "connectionId": "09e8a827b41c13d8ed9a476b3565b52f_connection_2",
+      "game": "indianboys",
+      "connectionFrom": "09e8a827b41c13d8ed9a476b3565b52f_state_1",
+      "connectionTo": "09e8a827b41c13d8ed9a476b3565b52f_state_2",
+      "backwardsLoop": false,
+      "transition": "09e8a827b41c13d8ed9a476b3565b52f_transition_1"
+    },
+    {
+      "connectionId": "09e8a827b41c13d8ed9a476b3565b52f_connection_3",
+      "game": "indianboys",
+      "connectionFrom": "09e8a827b41c13d8ed9a476b3565b52f_state_2",
+      "connectionTo": "09e8a827b41c13d8ed9a476b3565b52f_state_3",
+      "backwardsLoop": false,
+      "transition": null
+    }
+  ],
+  "transitions": [
+    {
+      "transitionId": "09e8a827b41c13d8ed9a476b3565b52f_transition_1",
+      "game": "indianboys",
+      "connection": "09e8a827b41c13d8ed9a476b3565b52f_connection_2",
+      "activeTransitions": {
+        "Game Wide": "Button Press"
+      },
+      "singleButtonPresses": {
+        "Game Wide": {
+          "button1": true,
+          "button1Label": "Red Button",
+          "button2": true,
+          "button2Label": "Green Button",
+          "button3": true,
+          "button3Label": "Blue Button",
+          "button4": true,
+          "button4Label": "Black Button"
+        }
+      },
+      "sequenceButtonPresses": {},
+      "keyboardInputs": {},
+      "timerDurations": {},
+      "randoms": {},
+      "globalVariables": {
+        "Game Wide": {
+          "globalVariableId": "09e8a827b41c13d8ed9a476b3565b52f_transition_1_game_wide",
+          "transition": "09e8a827b41c13d8ed9a476b3565b52f_transition_1",
+          "scope": "Game Wide",
+          "globalVariableInputModifiers": []
+        }
+      }
+    }
+  ]
+}
