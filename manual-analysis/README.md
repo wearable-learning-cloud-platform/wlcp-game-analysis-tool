@@ -1,0 +1,1 @@
+Codings here are for PHYSICAL artifacts (physical booklets). These can be used as semi-ground truth.
