@@ -8,7 +8,7 @@ import copy
 path_to_json = "../data/"
 data = []
 
-files = sorted(glob.glob('umass-ersp2023-project/data/*', recursive=False))
+files = sorted(glob.glob('../fsm-data/*', recursive=False))
 
 
 

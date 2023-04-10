@@ -10,7 +10,8 @@ data = []
 
 files = sorted(glob.glob('umass-ersp2023-project/data/*', recursive=False))
 
-
+f = open(files[0], 'r')
+print(f)
 
 for single_file in files:
     with open(single_file, 'r') as f:
