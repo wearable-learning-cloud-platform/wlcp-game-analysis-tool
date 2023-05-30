@@ -28,11 +28,11 @@ The following is the team's workflow for developing the codebase for this projec
 ## Set up: Tools and Modules
 + For local IDE: Setting up environment for **Ipython notebook** - just like Jupiter
 + For Google Colab: 
-* Either use Google Drive or Upload manually data folder to Google Colab
-* Go to Edit > Notebook Settings > Select GPU 
-* Currently, Google Colab runs the code without any problem. However, some of the modules/libraries used may change over time, and new versions may have different syntax, so please check for the version if any error occurs. 
-* Modules uses: transformers, torch, BERT
-* Simple Run all when use Google Colab
+    * Either use Google Drive or Upload manually data folder to Google Colab
+    * Go to Edit > Notebook Settings > Select GPU 
+    * Currently, Google Colab runs the code without any problem. However, some of the modules/libraries used may change over time, and new versions may have different syntax, so please check for the version if any error occurs. 
+    * Modules uses: transformers, torch, BERT
+    * Simple Run all when use Google Colab
 
 ## FSM and Manual data folder
 For the data that you passed into the fsm-data and manual-analysis folder, it is important to use the same name (the JSON file name should match with the csv name file).
@@ -49,10 +49,10 @@ Model to classify the children's text
 + Currently, the complete version of the code is on Google Colab: [Text analyzation](https://colab.research.google.com/drive/1unju8IEMUfNFuNSi4zmcik0s6QUaCtzs)
 + To use the model, please ensure the type of the input feeding into the model. All input should be converted to the DataFrame, and follow the same step of preprocessing as the data that was used to train the model. 
 + The Result1.csv file contains the result of the model when running the following games (in this exact order):
-* Hackers_IN
-* IndianBoys_IN
-* IndianGirls_IN
-* MathParkour_US
-* Raistar_IN
-* fireballs20-us
+    * Hackers_IN
+    * IndianBoys_IN
+    * IndianGirls_IN
+    * MathParkour_US
+    * Raistar_IN
+    * fireballs20-us
 + Reference: Some of the code in this project (mainly the model) is adapted from the “Toxic Comment Classification Challenge” by Sebastion Raschka which can be found [here](https://www.kaggle.com/code/rasbtn/distilbert-v0/notebook). 
