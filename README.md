@@ -46,7 +46,7 @@ Finding Loops and Conditional Part:
 Model to classify the children's text
 + The code is fully commented on in the ipynb file. The process would be extracting all of the text and then tokenizing them, creating a DataFrame that contains the input text and the output classes, building a model and then feeding the DataFrame to the model. 
 + Users also have to make sure that the json and csv files are in the same name. 
-+ Currently, the complete version of the code is on Google Colab: [Text analyzation](https://colab.research.google.com/drive/1unju8IEMUfNFuNSi4zmcik0s6QUaCtzs)
++ Currently, the complete version of the code is on Google Colab: [Text analyzation](https://colab.research.google.com/drive/1unju8IEMUfNFuNSi4zmcik0s6QUaCtzs). Currently, the complete version of the code is on Google Colab: Text analyzation. The file NLP_Colab.ibynb is the exact copy from Google Colab. Please note that running on local IDE and Google Colab will have some differences.
 + To use the model, please ensure the type of the input feeding into the model. All input should be converted to the DataFrame, and follow the same step of preprocessing as the data that was used to train the model. 
 + The Result1.csv file contains the result of the model when running the following games (in this exact order):
     * Hackers_IN
